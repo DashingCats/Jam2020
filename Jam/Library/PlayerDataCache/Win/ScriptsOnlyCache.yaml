@@ -49,6 +49,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11002}
     - Class: 114
       Script: {instanceID: 11342}
+    - Class: 114
+      Script: {instanceID: 13642}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -113,6 +115,27 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Transition.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -557,4 +580,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Start.unity
   - Assets/Scenes/Level 1.unity
+  - Assets/Scenes/Transition.unity
   playerPath: C:/Users/cydne/Desktop/Jam2020/Jam/Jam.exe
