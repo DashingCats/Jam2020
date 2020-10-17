@@ -114,7 +114,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 51
+=======
+  controlID: 115
+>>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,10 +312,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< Updated upstream
     m_HBaseRangeMin: -553.5
     m_HBaseRangeMax: 553.5
     m_VBaseRangeMin: -262
     m_VBaseRangeMax: 262
+=======
+    m_HBaseRangeMin: -443
+    m_HBaseRangeMax: 443
+    m_VBaseRangeMin: -198.5
+    m_VBaseRangeMax: 198.5
+>>>>>>> Stashed changes
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -347,7 +358,11 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< Updated upstream
   m_LastWindowPixelSize: {x: 1107, y: 541}
+=======
+  m_LastWindowPixelSize: {x: 886, y: 414}
+>>>>>>> Stashed changes
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -476,7 +491,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.17171822, y: 0.12523486, z: -0.022013515, w: 0.9769061}
     speed: 2
-    m_Value: {x: 0.17171815, y: 0.1252348, z: -0.022013504, w: 0.97690564}
+    m_Value: {x: -0.17171822, y: -0.12523486, z: 0.022013515, w: -0.9769061}
   m_Size:
     m_Target: 1724.1187
     speed: 2
