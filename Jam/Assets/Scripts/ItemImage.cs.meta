@@ -10,6 +10,13 @@ MonoImporter:
   - pen: {fileID: 21300000, guid: b12e674802ebce34a8ea4abf88646e67, type: 3}
   - pencilcase: {fileID: 21300000, guid: 04761bfcd4c145f4d926c0bd2e7be0e0, type: 3}
   - wallet: {fileID: 21300000, guid: a551f88a21f26b146b241079e5752ddc, type: 3}
+  - bike: {fileID: 21300000, guid: 6277c9ff61614624885d1a1cd0c59fb6, type: 3}
+  - laptop: {fileID: 21300000, guid: 5f6a00d6fe9b0764cae2d02b68b590b7, type: 3}
+  - textbook: {fileID: 21300000, guid: 0e6bfa412f3a8244dae8cce1f75260c6, type: 3}
+  - carKeys: {instanceID: 0}
+  - teddyBear: {fileID: 21300000, guid: 5a59dd2dbfb694b4fb6a29b002b7fa2d, type: 3}
+  - groceryBag: {fileID: 21300000, guid: 5799d89a42993ce46a08c702783a493b, type: 3}
+  - sandwich: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
