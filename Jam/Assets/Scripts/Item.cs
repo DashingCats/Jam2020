@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,34 +31,3 @@ public class Item : MonoBehaviour
     }
 
 }
-=======
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Item : MonoBehaviour
-{
-    private int itemTag;
-    private string itemName;
-
-    public int GetTag()
-    {
-        return itemTag;
-    }
-
-    public void SetTag(int i)
-    {
-        itemTag = i;
-    }
-
-    public string GetName()
-    {
-        return itemName;
-    }
-
-    public void SetName(string s)
-    {
-        itemName = s;
-    }
-}
->>>>>>> f3eab58cc24b6c4df96f6eeb5a9a713fabe41d84
