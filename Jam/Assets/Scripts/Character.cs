@@ -6,6 +6,7 @@ public class Character : MonoBehaviour
 {
     private int charTag;
     private string charName;
+    // private Image charImage;
 
     public int GetTag()
     {
