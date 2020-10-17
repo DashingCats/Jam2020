@@ -14,6 +14,10 @@ public class SceneTransition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene(sceneBuildIndex: 1);
+        
+    }
+    public void changeScenes(string scene)
+    {
+        SceneManager.LoadScene(scene);
     }
 }
