@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.UIElements;
+
 
 public class Item : MonoBehaviour
 {
     private int itemTag;
     private string itemName;
-
+    // private Image itemImage;
 
     public int GetTag()
     {
@@ -29,5 +28,4 @@ public class Item : MonoBehaviour
     {
         itemName = s;
     }
-
 }
