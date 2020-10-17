@@ -622,9 +622,13 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
 <<<<<<< HEAD
+<<<<<<< HEAD
     Collab: 0
 =======
     Collab: 1
+>>>>>>> main
+=======
+    Collab: 0
 >>>>>>> main
     UNet: 1
   luminIcon:
