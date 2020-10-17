@@ -7,8 +7,8 @@ using UnityEngine.UI;
 
 public class ItemImage : MonoBehaviour
 {
-    public Sprite cane, dog, headphones, pen, pencilcase, wallet, bike, laptop, textbook, carKeys;
-    public int imgnum = 0;
+    public Sprite cane, dog, headphones, pen, pencilcase, wallet, bike, laptop, textbook, carKeys, teddyBear, groceryBag, sandwich;
+    public static int imgnum = 0;
     
     // Start is called before the first frame update
     void Start()
@@ -56,13 +56,22 @@ public class ItemImage : MonoBehaviour
             case 9:
                 this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = carKeys;
                 break;
+            case 10:
+                this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = teddyBear;
+                break;
+            case 11:
+                this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = groceryBag;
+                break;
+            case 12:
+                this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = sandwich;
+                break;
         }
     }
     public void imgIncrease()
     {
         imgnum++;
 
-        if (imgnum > 9)
+        if (imgnum > 12)
             imgnum = 0;
 
         imgchange();
@@ -73,7 +82,7 @@ public class ItemImage : MonoBehaviour
         imgnum--;
 
         if (imgnum < 0)
-            imgnum = 9;
+            imgnum = 12;
 
         imgchange();
     }

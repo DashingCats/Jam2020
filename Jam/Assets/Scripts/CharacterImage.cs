@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class CharacterImage : MonoBehaviour
 {
     public Sprite character1, character2, character3, character4, character5;
-    public int imgnum = 0;
+    public int charnum = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class CharacterImage : MonoBehaviour
 
     public void imgchange()
     {
-        switch (imgnum)
+        switch (charnum)
         {
             case 0:
                 this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = character1;

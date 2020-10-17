@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 129837217}
   - component: {fileID: 129837219}
   - component: {fileID: 129837218}
+  - component: {fileID: 129837220}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -154,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -328, y: 82}
+  m_AnchoredPosition: {x: -328, y: 98}
   m_SizeDelta: {x: 421.4, y: 174.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129837218
@@ -200,6 +201,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129837216}
   m_CullTransparentMesh: 0
+--- !u!114 &129837220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129837216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649752314be80b242bb895c0b3b721f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charfile: {fileID: 1592712747}
 --- !u!1 &165386979
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,7 +387,9 @@ MonoBehaviour:
   laptop: {fileID: 21300000, guid: 5f6a00d6fe9b0764cae2d02b68b590b7, type: 3}
   textbook: {fileID: 21300000, guid: 0e6bfa412f3a8244dae8cce1f75260c6, type: 3}
   carKeys: {fileID: 21300000, guid: 95252544251cd8c4b97780d6d84bbb6d, type: 3}
-  imgnum: 0
+  teddyBear: {fileID: 0}
+  groceryBag: {fileID: 0}
+  sandwich: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +463,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.4e-44, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.0456469e+12, y: 6.9767185e+22, z: 55.856445, w: 2.7488622e+26}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1144,7 +1160,7 @@ MonoBehaviour:
   character3: {fileID: 21300000, guid: 8d39e9cf628b6f74dad3dac61a703732, type: 3}
   character4: {fileID: 21300000, guid: 96935b8cb1775284b8bc5c84c71dfc72, type: 3}
   character5: {fileID: 21300000, guid: 7574db258804ffe45b9bde58bc650524, type: 3}
-  imgnum: 0
+  charnum: 0
 --- !u!1 &1665375094
 GameObject:
   m_ObjectHideFlags: 0
