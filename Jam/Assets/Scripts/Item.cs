@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class Item : MonoBehaviour
 {
-
-    public Button next, last;
-
     private int itemTag;
     private string itemName;
+
 
     public int GetTag()
     {
@@ -30,4 +29,5 @@ public class Item : MonoBehaviour
     {
         itemName = s;
     }
+
 }
