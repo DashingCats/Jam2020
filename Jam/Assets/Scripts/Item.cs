@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private int itemTag;
+    private string itemName;
+
+    public int GetTag()
     {
-        
+        return itemTag;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetTag(int i)
     {
-        
+        itemTag = i;
+    }
+
+    public string GetName()
+    {
+        return itemName;
+    }
+
+    public void SetName(string s)
+    {
+        itemName = s;
     }
 }

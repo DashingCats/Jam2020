@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
@@ -13,6 +14,6 @@ public class SceneTransition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        SceneManager.LoadScene(sceneBuildIndex: 1);
     }
 }
