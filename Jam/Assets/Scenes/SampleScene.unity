@@ -120,7 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &52002937
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,8 +286,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> 4ad14394a3dfe50a3f81b870f5868469bd3179a2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,11 +359,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-<<<<<<< HEAD
   m_BoundingSphereOverride: {x: 0, y: -14, z: 13, w: 3.1e-44}
-=======
-  m_BoundingSphereOverride: {x: -0.0390625, y: 0, z: 7.2000003, w: 5.6}
->>>>>>> 4ad14394a3dfe50a3f81b870f5868469bd3179a2
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -461,17 +454,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 1, z: -10}
-=======
-  m_LocalPosition: {x: -2.15, y: 2.93, z: -16.47}
->>>>>>> 4ad14394a3dfe50a3f81b870f5868469bd3179a2
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1235530958
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,74 +606,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312694831}
   m_CullTransparentMesh: 0
-=======
---- !u!1001 &351629216345876092
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 351629215400971652, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_Name
-      value: Plane
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.2880485
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -13.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 351629215400971648, guid: f0601f9cc3f2e194e9f696ab7f459ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f0601f9cc3f2e194e9f696ab7f459ebb, type: 3}
->>>>>>> 4ad14394a3dfe50a3f81b870f5868469bd3179a2
