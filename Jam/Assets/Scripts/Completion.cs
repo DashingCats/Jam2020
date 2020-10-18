@@ -21,7 +21,7 @@ public class Completion : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip audioClip;
-
+    public AudioClip audioClip2;
 
     public int points = 0;
 
@@ -57,7 +57,6 @@ public class Completion : MonoBehaviour
     {
         if ((charfile.charnum == 0) && (itemfile.imgnum == 4))
         {
-            playClip();
             textbox.hints.text = "Ah thank you so much! I had to finish an art piece tonight";
             itemfile.bpencilcase = true;
             textbox.thankyou();
@@ -66,7 +65,6 @@ public class Completion : MonoBehaviour
         }
         else if ((charfile.charnum == 1) && itemfile.imgnum == 3)
         {
-            playClip();
             textbox.hints.text = "...Don't tell anyone this is mine okay? thanks.";
             itemfile.bpen = true;
             textbox.thankyou();
@@ -75,7 +73,6 @@ public class Completion : MonoBehaviour
         }
         else if ((charfile.charnum == 2) && itemfile.imgnum == 10)
         {
-            playClip();
             textbox.hints.text = "Thank you so so so much! I couldn't bear be without him!!! ";
             itemfile.bteddyBear = true;
             textbox.thankyou();
@@ -84,7 +81,6 @@ public class Completion : MonoBehaviour
         }
         else if ((charfile.charnum == 3) && itemfile.imgnum == 1)
         {
-            playClip();
             textbox.hints.text = "Thanks man! Can't believe he'd run off like that.";
             itemfile.bdog = true;
             textbox.thankyou();
@@ -92,7 +88,6 @@ public class Completion : MonoBehaviour
         }
         else if ((charfile.charnum == 4) && itemfile.imgnum == 8)
         {
-            playClip();
             textbox.hints.text = "Well i guess you saved me an extra $200, so thanks?";
             itemfile.btextbook = true;
             textbox.thankyou();
@@ -101,7 +96,6 @@ public class Completion : MonoBehaviour
         }
         else if ((charfile.charnum == 5) && itemfile.imgnum == 6)
         {
-            playClip();
             textbox.hints.text = "Thank you, I dont think i'd be able to go home without it!";
             itemfile.bbike = true;
             textbox.thankyou();
@@ -110,7 +104,6 @@ public class Completion : MonoBehaviour
         }
         else if ((charfile.charnum == 6) && itemfile.imgnum == 2)
         {
-            playClip();
             textbox.hints.text = "You found them great! I really need those morning jams!";
             itemfile.bheadphones = true;
             textbox.thankyou();
@@ -118,7 +111,6 @@ public class Completion : MonoBehaviour
         }
         else if ((charfile.charnum == 7) && itemfile.imgnum == 12)
         {
-            playClip();
             textbox.hints.text = "Thanks, really i needed my lunch.";
             itemfile.bsandwich = true;
             textbox.thankyou();
@@ -141,8 +133,14 @@ public class Completion : MonoBehaviour
         audioSource.Play();
     }
 
+    public void playClipWrong()
+    {
+        audioSource.clip = audioClip2;
+        audioSource.Play();
+    }
     IEnumerator Correct()
     {
+        playClip();
 
         points += 100;
 
@@ -163,6 +161,8 @@ public class Completion : MonoBehaviour
     }
     IEnumerator WaitNo()
     {
+        playClipWrong();
+
         points -= 50;
 
         if (points < 0)
