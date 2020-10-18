@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105, y: 66}
+  m_AnchoredPosition: {x: 77, y: 39}
   m_SizeDelta: {x: 360.4, y: 106.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129837218
@@ -177,8 +177,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 58b647c5b2ec4184e9a07a561cdf0644, type: 3}
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -318,14 +318,14 @@ RectTransform:
   m_GameObject: {fileID: 194259330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.66, y: 1.72, z: 1}
   m_Children: []
   m_Father: {fileID: 1096082353}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 152}
+  m_AnchoredPosition: {x: 32, y: 128}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194259332
@@ -352,7 +352,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 69
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -594,6 +594,19 @@ MonoBehaviour:
   teddyBear: {fileID: 21300000, guid: 5a59dd2dbfb694b4fb6a29b002b7fa2d, type: 3}
   groceryBag: {fileID: 21300000, guid: 5799d89a42993ce46a08c702783a493b, type: 3}
   sandwich: {fileID: 21300000, guid: 21d88501743252e4e91423b557d10a3a, type: 3}
+  bcane: 0
+  bdog: 0
+  bheadphones: 0
+  bpen: 0
+  bpencilcase: 0
+  bwallet: 0
+  bbike: 0
+  blaptop: 0
+  btextbook: 0
+  bcarkeys: 0
+  bteddyBear: 0
+  bgroceryBag: 0
+  bsandwich: 0
   imgnum: 0
 --- !u!1 &705507993
 GameObject:
@@ -668,7 +681,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.439e-42, y: 1.02e-43, z: 2.817509e+20, w: 0}
+  m_BoundingSphereOverride: {x: 7.623171e+27, y: 3.1883275e-36, z: 2.5e-42, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -713,14 +726,14 @@ RectTransform:
   m_GameObject: {fileID: 743765793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.38, y: 1.3, z: 1}
   m_Children: []
   m_Father: {fileID: 1096082353}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 354, y: 237}
+  m_AnchoredPosition: {x: 308, y: 237}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743765795
@@ -743,7 +756,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1741,7 +1754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -292, y: 97}
+  m_AnchoredPosition: {x: -293, y: 97}
   m_SizeDelta: {x: 270.98, y: 169.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1592712745
@@ -2097,3 +2110,4 @@ MonoBehaviour:
   volume: 100
   audioSource: {fileID: 875760385}
   audioClip: {fileID: 8300000, guid: 98959631a9cb63e4e92cf06c743b62a0, type: 3}
+  points: 0
