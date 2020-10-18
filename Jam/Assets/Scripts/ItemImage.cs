@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class ItemImage : MonoBehaviour
 {
     public Sprite cane, dog, headphones, pen, pencilcase, wallet, bike, laptop, textbook, carKeys, teddyBear, groceryBag, sandwich;
-    public static int imgnum = 0;
+    public int imgnum = 0;
     
     // Start is called before the first frame update
     void Start()

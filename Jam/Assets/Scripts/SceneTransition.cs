@@ -18,6 +18,6 @@ public class SceneTransition : MonoBehaviour
     }
     public void changeScenes(string scene)
     {
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
     }
 }

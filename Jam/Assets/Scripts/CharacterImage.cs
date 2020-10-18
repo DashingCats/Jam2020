@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class CharacterImage : MonoBehaviour
 {
-    public Sprite character1, character2, character3, character4, character5;
+    public Sprite character1, character2, character3, character4, character5, character6, character7, character8;
     public int charnum = 0;
 
     // Start is called before the first frame update
@@ -41,7 +41,16 @@ public class CharacterImage : MonoBehaviour
             case 4:
                 this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = character5;
                 break;
-           
+            case 5:
+                this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = character6;
+                break;
+            case 6:
+                this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = character7;
+                break;
+            case 7:
+                this.gameObject.GetComponent<UnityEngine.UI.Image>().sprite = character8;
+                break;
+
         }
     }
 
