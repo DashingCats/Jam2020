@@ -8,6 +8,12 @@ public class TextChange : MonoBehaviour
     public CharacterImage charfile;
     public Text hints;
 
+   // public GameObject score;
+   public Text numberScore;
+
+   // public GameObject 
+    public Text finalscore;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +21,11 @@ public class TextChange : MonoBehaviour
         
         hints = gameObject.GetComponent<Text>();
         hints.text = "Its where i store my favourite things!\n";
+
+        numberScore = GameObject.Find("Points").GetComponent<Text>();
+        numberScore.text = "Points: 0";
+
+        scoreChange(0);
     }
 
     // Update is called once per frame
@@ -44,7 +55,7 @@ public class TextChange : MonoBehaviour
         }
         if (charfile.charnum == 2)
         {
-            hints.text = "Its the best thing in the world!Its so soft and cuddly!\n";
+            hints.text = "Its the best thing in the world! Its so soft and cuddly!\n";
         }
         if (charfile.charnum == 3)
         {
@@ -56,7 +67,7 @@ public class TextChange : MonoBehaviour
         }
         if (charfile.charnum == 5)
         {
-            hints.text = "I'm not one for excercise, but its a great alternative to getting around.\n";
+            hints.text = "I'm normally not one for excercise, but its a great alternative to getting around.\n";
         }
         if (charfile.charnum == 6)
         {
@@ -68,4 +79,10 @@ public class TextChange : MonoBehaviour
         }
     }
     
+    public void scoreChange(int numScore)
+    {
+        if (numberScore != null)
+            numberScore.text = "Points: " + numScore;
+        return;
+    }
 }

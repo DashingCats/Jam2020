@@ -20,4 +20,8 @@ public class SceneTransition : MonoBehaviour
     {
         SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
     }
+    public void final()
+    {
+        SceneManager.LoadScene("Credits", LoadSceneMode.Single);
+    }
 }

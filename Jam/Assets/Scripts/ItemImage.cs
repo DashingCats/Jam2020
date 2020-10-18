@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class ItemImage : MonoBehaviour
 {
     public Sprite cane, dog, headphones, pen, pencilcase, wallet, bike, laptop, textbook, carKeys, teddyBear, groceryBag, sandwich;
+    public bool bcane, bdog, bheadphones, bpen, bpencilcase, bwallet, bbike, blaptop, btextbook, bcarkeys, bteddyBear, bgroceryBag, bsandwich = false;
     public int imgnum = 0;
     
     // Start is called before the first frame update
@@ -74,6 +75,29 @@ public class ItemImage : MonoBehaviour
         if (imgnum > 12)
             imgnum = 0;
 
+        int i = 0;
+        while (i < 12)
+        {
+            if ((bpencilcase == true) && (imgnum == 4))
+                imgnum++;
+            if ((bpen == true) && (imgnum == 3))
+                imgnum++;
+            if ((bteddyBear == true) && (imgnum == 10))
+                imgnum++;
+            if ((bdog == true) && (imgnum == 1))
+                imgnum++;
+            if ((btextbook == true) && (imgnum == 8))
+                imgnum++;
+            if ((bbike == true) && (imgnum == 6))
+                imgnum++;
+            if ((bheadphones == true) && (imgnum == 2))
+                imgnum++;
+            if ((bsandwich == true) && (imgnum == 12))
+                imgnum++;
+
+            i++;
+        }
+
         imgchange();
     }
 
@@ -84,6 +108,28 @@ public class ItemImage : MonoBehaviour
         if (imgnum < 0)
             imgnum = 12;
 
+        int i = 0;
+        while (i < 12)
+        {
+            if ((bpencilcase == true) && (imgnum == 4))
+                imgnum--;
+            if ((bpen == true) && (imgnum == 3))
+                imgnum--;
+            if ((bteddyBear == true) && (imgnum == 10))
+                imgnum--;
+            if ((bdog == true) && (imgnum == 1))
+                imgnum--;
+            if ((btextbook == true) && (imgnum == 8))
+                imgnum--;
+            if ((bbike == true) && (imgnum == 6))
+                imgnum--;
+            if ((bheadphones == true) && (imgnum == 2))
+                imgnum--;
+            if ((bsandwich == true) && (imgnum == 12))
+                imgnum--;
+
+            i++;
+        }
         imgchange();
     }
 
